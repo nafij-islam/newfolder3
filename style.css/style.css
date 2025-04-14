@@ -1,0 +1,47 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0px auto;
+    background-color: aqua;
+
+}
+
+ul{
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+
+/* common css */
+
+
+nav .box{
+    display: flex;
+}
+
+nav .box .logo{
+    width: 20%;
+}
+
+nav .box .menu{
+    width: 60%;
+
+}
+
+nav .box .menu ul{
+    display: flex;
+}
+
+
+
+nav .box .btn{
+    width: 20%;
+}
