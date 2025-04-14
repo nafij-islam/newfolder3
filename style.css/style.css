@@ -7,7 +7,7 @@
 .container{
     max-width: 1200px;
     margin: 0px auto;
-    background-color: aqua;
+    
 
 }
 
@@ -22,13 +22,23 @@ a{
 
 /* common css */
 
+nav{
+    background-color: rgb(224, 174, 108);
+    padding: 10px;
+}
+
 
 nav .box{
     display: flex;
+    align-items: center;
 }
 
 nav .box .logo{
     width: 20%;
+}
+
+nav .box .logo h1{
+    font-size: 40px;
 }
 
 nav .box .menu{
@@ -38,10 +48,28 @@ nav .box .menu{
 
 nav .box .menu ul{
     display: flex;
+    column-gap: 60px;
+    justify-content: center;
+}
+nav .box .menu ul li{
+    font-size: 20px;
+    border: 2px solid white;
+    padding: 5px 10px;
+    border-radius: 10px;
+
 }
 
 
 
 nav .box .btn{
     width: 20%;
+    text-align: right;
+}
+
+nav .box .btn a{
+    font-size: 30px;
+    background-color: rgb(0, 0, 0);
+    padding: 5px 10px;
+    border-radius: 10px;
+    color: white;
 }
